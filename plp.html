@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bounty's HTML Template</title>
+    <link rel="stylesheet" href="../CSS/plp.css">
+</head>
+<body>
+    <header>
+        <h1>My HTML Template with My CSS styling for PLP Assignment</h1>
+    </header>
+    
+    <!-- Form -->
+    <form action="register.php" method="POST">
+        <div>
+            <label>First Name</label>
+            <input type="text" name="first_name" placeholder="Enter your first name">
+        </div>
+        <br>
+        
+        <div>
+            <label>Last Name</label>
+            <input type="text" name="last_name" placeholder="Enter your last name">
+        </div>
+        <br>
+        
+        <div>
+            <label>Email</label>
+            <textarea name="message" placeholder="Enter your email"></textarea>
+        </div>
+        <br>
+        
+        <div>
+            <label for="gender">Gender</label>
+            <select id="gender" name="gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+        </div>
+        <br>
+
+        <div>
+            <label for="age">Age</label>
+            <input type="number" name="age" value="30" id="age">
+        </div>
+        <br>
+        
+        <div>
+            <label for="birthday">Birthday</label>
+            <input type="date" name="birthday" id="birthday">
+        </div>
+        <br>
+        
+        <label for="submit">Submit</label>
+        <input type="submit" id="submit" value="Submit">
+        <br>
+    </form>
+
+    <!-- Table -->
+    <h2>User Information</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Mobile Number</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Brad Becky</td>
+                <td>BradBecky@gmail.com</td>
+                <td>07051103176</td>
+                <td>31</td>
+            </tr>
+            <tr>
+                <td>Esther Ruth</td>
+                <td>EstherRuth@gmail.com</td>
+                <td>07067101189</td>
+                <td>31</td>
+            </tr>
+            <tr>
+                <td>Kamau Wambui</td>
+                <td>KamauWambui@gmail.com</td>
+                <td>08061203176</td>
+                <td>31</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <img src="Images/Bountys-pics..jpeg" tyle="width: 100px; height: 200px;">
+    <p>For more information, visit <a href="https://google.com" target="_blank">Google</a></p>
+</body>
+</html>
+
